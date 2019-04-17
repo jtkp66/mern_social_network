@@ -50,7 +50,7 @@ class Register extends Component {
               <p className="lead text-center">
                 Create your OriginConnect account
               </p>
-              <form onSubmit={this.onSubmit}>
+              <form noValidate onSubmit={this.onSubmit}>
                 <div className="form-group">
                   <input
                     type="text"
